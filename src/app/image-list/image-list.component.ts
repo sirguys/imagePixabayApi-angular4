@@ -11,10 +11,10 @@ export class ImageListComponent implements OnInit {
 
   constructor(private _imageService: ImageService) { }
 
-  searchImamge(query: string) {
+  searchImages(query: string) {
     return this._imageService.getImage(query).subscribe(
       data => console.log(data),
-      err => console.log(err),
+      error => console.log(error),
       () => console.log('Success!!')
     )
   }

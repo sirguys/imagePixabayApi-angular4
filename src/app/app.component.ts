@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ImageService } from './service/image.service';
 
 @Component({
   selector: 'app-root',
