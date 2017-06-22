@@ -7,5 +7,5 @@ import { ImageService } from './service/image.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Image Search from Pixabay';
+  title = 'Pixabay Search';
 }
